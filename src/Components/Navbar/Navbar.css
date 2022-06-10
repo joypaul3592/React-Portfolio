@@ -1,23 +1,27 @@
-.home:hover{
-    padding-left: 80px;
-    transition: all ease-in 0.1s;
-}
-.text{
-    left: 40%;
-    transition: all ease-in 0.3s;
-}
-.home:hover .text{
-    transition: all ease-in 0.3s;
-    display: block;
-    left: 22%;
-}
-.home:hover .PortFoliotext{
-    transition: all ease-in 0.3s;
-    display: block;
-    left: 15%;
-}
-.home:hover .context{
-    transition: all ease-in 0.3s;
-    display: block;
-    left: 17%;
-}
+
+
+@media only screen and (min-width: 768px) {
+    .home:hover{
+        padding-left: 90px;
+        transition: all ease-in 0.1s;
+    }
+    .text{
+        left: 40%;
+        transition: all ease-in 0.3s;
+    }
+    .home:hover .text{
+        transition: all ease-in 0.3s;
+        display: block;
+        left: 22%;
+    }
+    .home:hover .PortFoliotext{
+        transition: all ease-in 0.3s;
+        display: block;
+        left: 7%;
+    }
+    .home:hover .context{
+        transition: all ease-in 0.3s;
+        display: block;
+        left: 15%;
+    }
+  }
