@@ -25,7 +25,7 @@ const Navbar = () => {
 
                 <nav className='w-full bg-orange-500 md:bg-inherit pt-6 md:pt-0   flex md:flex-col md:items-end md:pr-10 justify-around'>
                     <NavLink
-                        to={'blog'}
+                        to={'/'}
                         className={({ isActive }) => (` text-md font-medium mb-6  bg-sky-900  rounded-3xl ${isActive ? 'text-white' : 'text-white'}`)}
                     >
                         <div className='home '>
@@ -37,7 +37,7 @@ const Navbar = () => {
                     </NavLink>
 
                     <NavLink
-                        to={'blog'}
+                        to={'about'}
                         className={({ isActive }) => (` text-md font-medium mb-6  bg-sky-900  rounded-3xl ${isActive ? 'text-white' : 'text-white'}`)}
                     >
                         <div className='home '>
@@ -50,7 +50,7 @@ const Navbar = () => {
 
 
                     <NavLink
-                        to={'blog'}
+                        to={'portfolio'}
                         className={({ isActive }) => (` text-md font-medium mb-6  bg-sky-900  rounded-3xl ${isActive ? 'text-white' : 'text-white'}`)}
                     >
                         <div className='home '>
@@ -62,7 +62,7 @@ const Navbar = () => {
                     </NavLink>
 
                     <NavLink
-                        to={'blog'}
+                        to={'contact'}
                         className={({ isActive }) => (` text-md font-medium mb-6  bg-sky-900  rounded-3xl ${isActive ? 'text-white' : 'text-white'}`)}
                     >
                         <div className='home '>
