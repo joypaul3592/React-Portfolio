@@ -37,7 +37,7 @@ const Navbar = () => {
                     </NavLink>
 
                     <NavLink
-                        to={'about'}
+                        to={'about/overview'}
                         className={({ isActive }) => (` text-md font-medium mb-6  bg-sky-900  rounded-3xl ${isActive ? 'text-white' : 'text-white'}`)}
                     >
                         <div className='home '>
