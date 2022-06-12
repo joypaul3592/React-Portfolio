@@ -13,7 +13,7 @@ const Skills = () => {
     const mongodb = 45;
 
     return (
-        <div className='grid  md:grid-cols-3 tex gap-16 md:ml-20  rounded-3xl'>
+        <div className='grid  md:grid-cols-3 grid-cols-2 pb-12 md:pb-0 tex gap-16 md:ml-20  rounded-3xl'>
 
 
             <div className=' w-20 '>
