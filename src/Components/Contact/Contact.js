@@ -11,12 +11,13 @@ const Contact = () => {
                     <h2 className=' pt-8 md:text-5xl text-4xl font-semibold uppercase font-mono'>Contact <span className=' text-orange-500'>ME</span></h2>
                 </div>
 
-                <div className='  lg:flex items-center justify-between mt-16  pb-36 lg:pb-0'>
+                <div className='  md:flex items-center justify-between mt-16  pb-36 lg:pb-0'>
                     <div className='  px-2 md:w-[35%] text-left mb-12 lg:mb-0'>
                         <h1 className=' text-2xl font-mono text-gray-600'>DON'T BE SHY<span className=' text-orange-500'>!</span></h1>
+                        <hr className='border-orange-500 ' />
                         <p className=' text-sm text-justify text-gray-400 my-4'>Feel free to get in touch with me. I am looking for a job opportunity to utilize my skills. I am a fast learner andready to relocate. I would be grateful if you take a look at my work and contact me if you think I am a good fit.</p>
                         <div className=' pt-8'>
-                            <div className=' flex items-center  mb-4'>
+                            <div className=' flex items-center border-b-[1px] border-orange-500 pb-2 '>
                                 <div className=' pl-0 p-4'>
                                     <FaHome className=' text-4xl text-orange-500' />
                                 </div>
@@ -26,7 +27,7 @@ const Contact = () => {
                                 </div>
                             </div>
 
-                            <div className=' flex items-center  mb-4'>
+                            <div className=' flex items-center border-b-[1px] border-orange-500'>
                                 <div className=' pl-0 p-4'>
                                     <MdMarkEmailUnread className=' text-4xl text-orange-500' />
                                 </div>
@@ -36,7 +37,7 @@ const Contact = () => {
                                 </div>
                             </div>
 
-                            <div className=' flex items-center mb-4'>
+                            <div className=' flex items-center'>
                                 <div className='  p-4 pl-0'>
                                     <MdContactPhone className=' text-4xl text-orange-500' />
                                 </div>
