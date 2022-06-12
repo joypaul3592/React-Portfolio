@@ -50,7 +50,7 @@ const Navbar = () => {
 
 
                     <NavLink
-                        to={'portfolio'}
+                        to={'projects'}
                         className={({ isActive }) => (` text-md font-medium mb-6  bg-sky-900  rounded-3xl ${isActive ? 'text-white' : 'text-white'}`)}
                     >
                         <div className='home '>
