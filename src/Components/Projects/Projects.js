@@ -28,9 +28,8 @@ const Projects = () => {
                                 Manage inventory.</p>
                         </div>
                         <div className=' flex justify-between items-center px-4'>
-                            <a className=' py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="">Clint side</a>
-                            <a className=' py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="">Server side</a>
-                            <a className=' py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="">Live side</a>
+                            <a className='w-[47%] py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="https://github.com/joypaul3592/Manufacturer-website" target='_blank'>Client side</a>
+                            <a className='w-[47%] py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="https://vitic-application.web.app" target='_blank'>Live side</a>
                         </div>
                         <hr className=' mb-4 mx-4 mt-4' />
                         <div className='flex mt-6 px-4 justify-between items-center'>
@@ -55,9 +54,8 @@ const Projects = () => {
                                 End UI and CRUD operation implemented.</p>
                         </div>
                         <div className=' flex justify-between items-center px-4'>
-                            <a className=' py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="">Clint side</a>
-                            <a className=' py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="">Server side</a>
-                            <a className=' py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="">Live side</a>
+                            <a className=' w-[47%]  py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="https://github.com/joypaul3592/Cycle-management-app" target='_blank'>Client side</a>
+                            <a className=' w-[47%]  py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="https://cycle-inventory.web.app/" target='_blank'>Live side</a>
                         </div>
                         <hr className=' mb-4 mx-4 mt-4' />
                         <div className='flex mt-6 px-4 justify-between items-center'>
@@ -83,9 +81,9 @@ const Projects = () => {
                                 Manage inventory.</p>
                         </div>
                         <div className=' flex justify-between items-center px-4'>
-                            <a className=' py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="">Clint side</a>
-                            <a className=' py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="">Server side</a>
-                            <a className=' py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="">Live side</a>
+                            <a className=' w-[47%] py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="https://github.com/joypaul3592/Dcotor-managment-app" target='_blank'>Client side</a>
+
+                            <a className=' w-[47%] py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold' href="https://dapper-rolypoly-d479bb.netlify.app" target='_blank'>Live side</a>
                         </div>
                         <hr className=' mb-4 mx-4 mt-4' />
                         <div className='flex mt-6 px-4 justify-between items-center'>

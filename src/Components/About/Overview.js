@@ -1,7 +1,7 @@
 import React from 'react';
 import { TbBoxMultiple1, TbBoxMultiple2, TbBoxMultiple3 } from "react-icons/tb";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 const Overview = () => {
     return (
         <div className=' lg:flex w-full  pb-16 md:pb-0'>
@@ -46,9 +46,9 @@ const Overview = () => {
                                 <FaFacebookF className=' mr-2' /> Facebook
                             </div>
                         </a>
-                        <a href="https://www.instagram.com/_joypaul/" target='_blank'>
+                        <a href="https://github.com/joypaul3592" target='_blank'>
                             <div className='py-1 px-4 my-4 md:my-0 rounded-md border border-orange-500 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 hover:text-white cursor-pointer'>
-                                <AiFillInstagram className=' mr-2' /> Instagram
+                                <AiFillGithub className=' mr-2' /> GitHub
                             </div>
                         </a>
                         <a href="https://www.linkedin.com/in/joy-paul3592/" target='_blank'>
@@ -63,13 +63,13 @@ const Overview = () => {
             <div className=' lg:w-[50%]  lg:px-8 md:px-5'>
                 <h1 className=' text-2xl font-mono text-left flex items-center'><TbBoxMultiple3 className='text-orange-500 mr-3 text-base' /> Overview</h1>
                 <hr className=' mb-8' />
-                <p className=' text-justify mb-2 text-sm'>My name is MD Zillur Rahman and I am an ambitious Frontend Engineer based in Germany.
+                <p className=' text-justify mb-2 text-sm'>My name is Joy Paul and I am an ambitious Frontend Developer.
                 </p>
                 <p className=' text-justify mb-2 text-sm'>
                     My target is to build things following the latest trend and technologies. And definitely my other primary goal is to find solutions for the problems. Grasp for limitless learning brought me to web programming. Because I love exploring new things and in web development there is no end of learning. Currently, I am learning NextJS and also have a thirst for learning GraphQL and Redux.
                 </p>
                 <p className=' text-justify text-sm'>
-                    Currently, I am looking for an opportunity as a frontend developer in Germany to utilize my specialties. I am a team player and self-motivated, always a grasp for learning new stack. I am flexible to relocate as well.
+                    Currently, I am looking for an opportunity as a frontend developer in my specialties. I am a team player and self-motivated, always a grasp for learning new stack. I am flexible to relocate as well.
                 </p>
             </div>
         </div>
