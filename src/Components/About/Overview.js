@@ -41,15 +41,21 @@ const Overview = () => {
                     <hr className=' mb-8' />
 
                     <div className=' md:flex items-center justify-around'>
-                        <div className='py-1 px-4 my-4 md:my-0 rounded-md border border-orange-500 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 hover:text-white cursor-pointer'>
-                            <FaFacebookF className=' mr-2' /> Facebook
-                        </div>
-                        <div className='py-1 px-4 my-4 md:my-0 rounded-md border border-orange-500 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 hover:text-white cursor-pointer'>
-                            <AiFillInstagram className=' mr-2' /> Instagram
-                        </div>
-                        <div className='py-1 px-4 my-4 md:my-0 rounded-md border border-orange-500 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 hover:text-white cursor-pointer'>
-                            <FaLinkedinIn className=' mr-2' /> Linkedin
-                        </div>
+                        <a href="https://www.facebook.com/endless.wer/" target="_blank">
+                            <div className='py-1 px-4 my-4 md:my-0 rounded-md border border-orange-500 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 hover:text-white cursor-pointer'>
+                                <FaFacebookF className=' mr-2' /> Facebook
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/_joypaul/" target='_blank'>
+                            <div className='py-1 px-4 my-4 md:my-0 rounded-md border border-orange-500 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 hover:text-white cursor-pointer'>
+                                <AiFillInstagram className=' mr-2' /> Instagram
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/joy-paul3592/" target='_blank'>
+                            <div className='py-1 px-4 my-4 md:my-0 rounded-md border border-orange-500 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 hover:text-white cursor-pointer'>
+                                <FaLinkedinIn className=' mr-2' /> Linkedin
+                            </div>
+                        </a>
                     </div>
 
                 </div>
