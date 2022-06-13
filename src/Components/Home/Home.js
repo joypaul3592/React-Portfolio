@@ -14,7 +14,7 @@ const Home = () => {
                 <h1 className=' text-5xl font-semibold uppercase font-mono my-3'>Joy Paul</h1>
                 <h3 className=' text-md font-mono text-orange-600 mb-2 uppercase' >F r o n t e n d  <span className='ml-2'>D e v e l o p e r</span></h3>
                 <p className=' text-justify'>I'm a web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent Website that improves the lives of those around me.</p>
-                <a href="https://drive.google.com/file/d/1xn62MH0ycFEpU4O7HKv08Wr65czFPfDp/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1mjvm9SOvoMUE3lObaBxhWZXNzKmJscry/view?usp=sharing" target="_blank">
                     <button className='py-1 px-5 flex btn hover:bg-orange-500 hover:border-orange-500 hover:text-white border transition border-black font-mono rounded-2xl mt-5'>Download CV <BsArrowDownCircle className='animate-bounce arrow text-orange-500  ml-3 mt-[6px]' /></button>
                 </a>
             </div>
