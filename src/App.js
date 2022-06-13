@@ -1,16 +1,25 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Components/About/About';
 import Education from './Components/About/Education';
 import Overview from './Components/About/Overview';
 import Skills from './Components/About/Skills';
-import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
+
+
   return (
     <div className="App max-w-7xl mx-auto relative">
       <Navbar></Navbar>

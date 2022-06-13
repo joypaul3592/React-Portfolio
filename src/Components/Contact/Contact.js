@@ -6,17 +6,17 @@ const Contact = () => {
     return (
         <div>
             <div className=' h-screen  md:pr-36 py-16 md:px-10 px-8 '>
-                <div className=' relative'>
+                <div data-aos="fade-down" className=' relative'>
                     <h1 className=' absolute top-0 lg:left-[33%] md:left-[22%] md:text-8xl text-7xl font-bold opacity-5'>Contact</h1>
                     <h2 className=' pt-8 md:text-5xl text-4xl font-semibold uppercase font-mono'>Contact <span className=' text-orange-500'>ME</span></h2>
                 </div>
 
                 <div className='  md:flex items-center justify-between mt-16  pb-36 lg:pb-0'>
-                    <div className='  px-2 md:w-[35%] text-left mb-12 lg:mb-0'>
+                    <div data-aos="fade-right" className='  px-2 md:w-[35%] text-left mb-12 lg:mb-0'>
                         <h1 className=' text-2xl font-mono text-gray-600'>DON'T BE SHY<span className=' text-orange-500'>!</span></h1>
                         <hr className='border-orange-500 ' />
                         <p className=' text-sm text-justify text-gray-400 my-4'>Feel free to get in touch with me. I am looking for a job opportunity to utilize my skills. I am a fast learner andready to relocate. I would be grateful if you take a look at my work and contact me if you think I am a good fit.</p>
-                        <div className=' pt-8'>
+                        <div data-aos="zoom-in-left" className=' pt-8'>
                             <div className=' flex items-center border-b-[1px] border-orange-500 pb-2 '>
                                 <div className=' pl-0 p-4'>
                                     <FaHome className=' text-4xl text-orange-500' />
@@ -48,7 +48,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='  md:w-[63%] md:px-8'>
+                    <div data-aos="fade-left" className='md:w-[63%] md:px-8'>
                         <form >
                             <div className=' w-full  flex items-center justify-between mb-6'>
                                 <input className='w-[48%] py-2 px-2 text-sm font-mono bg-transparent border border-orange-500 rounded-md' type="text" placeholder='Your Name' required />

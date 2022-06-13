@@ -16,7 +16,7 @@ const Skills = () => {
         <div className='grid  md:grid-cols-3 grid-cols-2 pb-12 md:pb-0 tex gap-16 md:ml-20  rounded-3xl'>
 
 
-            <div className=' w-20 '>
+            <div data-aos="zoom-in" className=' w-20 '>
                 <CircularProgressbar
                     value={html} text={`${html}%`}
                     styles={buildStyles({
@@ -30,7 +30,7 @@ const Skills = () => {
                 <h1 className='text-center pt-1 text-sm font-semibold font-mono uppercase'>Html</h1>
             </div>
 
-            <div className=' w-20'>
+            <div data-aos="zoom-in" className=' w-20'>
                 <CircularProgressbar
                     value={css} text={`${css}%`}
                     styles={buildStyles({
@@ -44,7 +44,7 @@ const Skills = () => {
                 <h1 className='text-center pt-1 text-sm font-semibold font-mono uppercase'>css</h1>
             </div>
 
-            <div className=' w-20'>
+            <div data-aos="zoom-in" className=' w-20'>
                 <CircularProgressbar
                     value={javascript} text={`${javascript}%`}
                     styles={buildStyles({
@@ -58,7 +58,7 @@ const Skills = () => {
                 <h1 className='text-center pt-1 text-sm font-semibold font-mono uppercase'>javascript</h1>
             </div>
 
-            <div className=' w-20'>
+            <div data-aos="zoom-out" className=' w-20'>
                 <CircularProgressbar
                     value={react} text={`${react}%`}
                     styles={buildStyles({
@@ -72,7 +72,7 @@ const Skills = () => {
                 <h1 className='text-center pt-1 text-sm font-semibold font-mono uppercase'>react</h1>
             </div>
 
-            <div className=' w-20'>
+            <div data-aos="zoom-out" className=' w-20'>
                 <CircularProgressbar
                     value={node} text={`${node}%`}
                     styles={buildStyles({
@@ -87,7 +87,7 @@ const Skills = () => {
             </div>
 
 
-            <div className=' w-20'>
+            <div data-aos="zoom-out" className=' w-20'>
                 <CircularProgressbar
                     value={mongodb} text={`${mongodb}%`}
                     styles={buildStyles({

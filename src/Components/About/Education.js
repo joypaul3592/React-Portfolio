@@ -6,10 +6,10 @@ const Education = () => {
     return (
         <div className=' lg:flex w-full pb-16 md:pb-0'>
             <div className='lg:w-[50%]  md:px-3 pb-16 lg:pb-0'>
-                <div>
+                <div data-aos="fade-right">
                     <h1 className=' text-2xl font-mono text-left flex items-center'><TbBoxMultiple1 className=' mr-3 text-orange-500 text-base' />Academic</h1>
                     <hr className=' mb-8' />
-                    <div className='flex mb-8'>
+                    <div data-aos="zoom-in" className='flex mb-8'>
                         <div className='flex flex-col items-center w-[10%] mr-8'>
                             <div className=' w-8 h-8 border border-gray-300 rounded-full flex items-center justify-center'>
                                 <HiAcademicCap className=' text-orange-500' />
@@ -24,7 +24,7 @@ const Education = () => {
                         </div>
                     </div>
 
-                    <div className='flex'>
+                    <div data-aos="zoom-in-left" className='flex'>
                         <div className='flex flex-col items-center w-[10%] mr-8'>
                             <div className=' w-8 h-8 border border-gray-300 rounded-full flex items-center justify-center'>
                                 <HiAcademicCap className=' text-orange-500' />
@@ -40,7 +40,7 @@ const Education = () => {
                     </div>
                 </div>
             </div>
-            <div className=' lg:w-[50%]  lg:px-8  md:px-5'>
+            <div data-aos="fade-left" className=' lg:w-[50%]  lg:px-8  md:px-5'>
                 <h1 className=' text-2xl font-mono text-left flex items-center'><TbBoxMultiple2 className='text-orange-500 mr-3 text-base' /> Course</h1>
                 <hr className=' mb-8' />
                 <div>

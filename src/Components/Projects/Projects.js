@@ -11,11 +11,11 @@ const Projects = () => {
     return (
         <div>
             <div className=' h-screen  md:pr-36 py-16 md:px-10 px-8 '>
-                <div className=' relative'>
+                <div data-aos="fade-down" className=' relative'>
                     <h1 className=' absolute top-0 lg:left-[33%] md:left-[22%] md:text-8xl text-7xl font-bold opacity-5'>WORKS</h1>
                     <h2 className=' pt-8 md:text-5xl text-4xl font-semibold uppercase font-mono'>My <span className=' text-orange-500'>Projects</span></h2>
                 </div>
-                <div className=' lg:h-96 mt-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 items-center  md:px-6  pb-32 md:pb-0'>
+                <div data-aos="zoom-in" className=' lg:h-96 mt-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 items-center  md:px-6  pb-32 md:pb-0'>
                     <div className=' shadow-lg pb-6'>
                         <div className=' box '>
                             <img src={viticpng} alt="image" />
@@ -43,7 +43,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className=' shadow-lg pb-6'>
+                    <div data-aos="zoom-in-down" className=' shadow-lg pb-6'>
                         <div className=' box '>
                             <img src={cyclepng} alt="image" />
                         </div>
@@ -69,7 +69,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className=' shadow-lg pb-6'>
+                    <div data-aos="zoom-in-left" className=' shadow-lg pb-6'>
                         <div className=' box '>
                             <img src={docpng} alt="image" />
                         </div>

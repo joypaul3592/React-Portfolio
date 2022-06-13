@@ -6,7 +6,7 @@ const Overview = () => {
     return (
         <div className=' lg:flex w-full  pb-16 md:pb-0'>
             <div className='lg:w-[50%]  md:px-3 pb-16 lg:pb-0'>
-                <div>
+                <div data-aos="zoom-in">
                     <h1 className=' text-2xl font-mono text-left flex items-center'><TbBoxMultiple1 className=' mr-3 text-orange-500 text-base' /> Personal Info</h1>
                     <hr className=' mb-8' />
                     <div className=' md:flex justify-between'>
@@ -36,7 +36,7 @@ const Overview = () => {
                     </div>
                 </div>
 
-                <div className='mt-8'>
+                <div className='mt-8' data-aos="zoom-in-up">
                     <h1 className=' text-2xl font-mono text-left flex items-center'><TbBoxMultiple2 className=' mr-3 text-orange-500 text-base' /> Social Info</h1>
                     <hr className=' mb-8' />
 
@@ -60,7 +60,7 @@ const Overview = () => {
 
                 </div>
             </div>
-            <div className=' lg:w-[50%]  lg:px-8 md:px-5'>
+            <div data-aos="zoom-in-left" className=' lg:w-[50%]  lg:px-8 md:px-5'>
                 <h1 className=' text-2xl font-mono text-left flex items-center'><TbBoxMultiple3 className='text-orange-500 mr-3 text-base' /> Overview</h1>
                 <hr className=' mb-8' />
                 <p className=' text-justify mb-2 text-sm'>My name is Joy Paul and I am an ambitious Frontend Developer.
