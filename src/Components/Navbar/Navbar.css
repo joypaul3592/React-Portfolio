@@ -17,7 +17,7 @@
     .home:hover .PortFoliotext{
         transition: all ease-in 0.3s;
         display: block;
-        left: 7%;
+        left: 9%;
     }
     .home:hover .context{
         transition: all ease-in 0.3s;
