@@ -74,6 +74,22 @@ const Navbar = () => {
                     </NavLink>
 
 
+                    <NavLink
+                        to={'blog'}
+                        className={({ isActive }) => (` text-md font-medium mb-6  bg-sky-900  rounded-3xl ${isActive ? 'text-white' : 'text-white'}`)}
+                    >
+                        <div className='home '>
+                            <p className=' absolute mt-[4px] text-white font-mono text-md hidden context'>Blog</p>
+                            <div className='h-8 w-8 bg-sky-900 flex justify-center items-center rounded-full transition-all'>
+                                <AnnotationIcon className="h-4 w-4 text-white" />
+                            </div>
+                        </div>
+                    </NavLink>
+
+
+
+
+
                 </nav>
 
                 <div className=' w-full hidden md:flex pr-14 justify-end mt-8 mb-3'>

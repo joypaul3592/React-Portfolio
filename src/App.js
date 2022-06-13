@@ -7,6 +7,7 @@ import About from './Components/About/About';
 import Education from './Components/About/Education';
 import Overview from './Components/About/Overview';
 import Skills from './Components/About/Skills';
+import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
@@ -34,6 +35,7 @@ function App() {
 
         <Route path="projects" element={<Projects />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="blog" element={<Blog />} />
       </Routes>
     </div>
   );
