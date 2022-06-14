@@ -15,14 +15,13 @@ const ProjectsCard = () => {
     const naviget = useNavigate();
 
     useEffect(() => {
-        fetch(`http://localhost:5000/myProjects/${id}`)
+        fetch(`https://stormy-sea-28824.herokuapp.com/myProjects/${id}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data.data[0]);
                 setProject(data.data[0])
             })
     }, [])
-
 
 
 
