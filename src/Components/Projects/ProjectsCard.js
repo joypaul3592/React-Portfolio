@@ -26,7 +26,7 @@ const ProjectsCard = () => {
 
 
     return (
-        <div className=' h-screen mx-w-7xl mx-auto lg:pt-24 pt-12 px-8'>
+        <div className=' h-screen mx-w-7xl mx-auto lg:pt-24 pt-12 px-8 mb-24 md:mb-0'>
             <button data-aos="fade-right" onClick={() => naviget(-1)} className='py-1 px-3  border-orange-500 border rounded font-sm font-semibold flex items-center justify-between'> <FiArrowLeftCircle className='w-5 text-orange-500 animate-bounce mr-4 mt-2'></FiArrowLeftCircle>Go Back</button>
             <div className=' lg:w-1/3 md:w-8/12 w-full mt-5 lg:mt-0 pb-8 lg:pb-0 mx-auto'>
                 <div data-aos="zoom-in-down" className=' rounded shadow-lg pb-6'>

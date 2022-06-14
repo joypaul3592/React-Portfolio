@@ -48,7 +48,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-left" className='md:w-[63%] md:px-8'>
+                    <div data-aos="zoom-in" className='md:w-[63%] md:px-8'>
                         <form >
                             <div className=' w-full  flex items-center justify-between mb-6'>
                                 <input className='w-[48%] py-2 px-2 text-sm font-mono bg-transparent border border-orange-500 rounded-md' type="text" placeholder='Your Name' required />

@@ -6,7 +6,7 @@ import { FaFacebook, FaGithub } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
-        <div data-aos="fade-down">
+        <div >
 
             <div className=' md:h-screen w-full  md:w-40 fixed z-50  md:absolute md:top-0 md:right-0 bottom-0 flex md:flex-col justify-center '>
 
