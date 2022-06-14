@@ -12,6 +12,7 @@ import Contact from './Components/Contact/Contact';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
+import ProjectsCard from './Components/Projects/ProjectsCard';
 
 function App() {
 
@@ -33,7 +34,9 @@ function App() {
           <Route path="skills" element={<Skills />} ></Route>
         </Route>
 
-        <Route path="projects" element={<Projects />} />
+        <Route path="projects" element={<Projects />} >
+        </Route>
+        <Route path="projectsCard/:id" element={<ProjectsCard></ProjectsCard>} ></Route>
         <Route path="contact" element={<Contact />} />
         <Route path="blog" element={<Blog />} />
       </Routes>

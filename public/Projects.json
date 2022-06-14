@@ -1,0 +1,28 @@
+[
+    {
+        "name":"Menufecture Website",
+        "img":"https://i.ibb.co/j4yMLt2/vitic.png",
+        "info":"This is a Electronics inventory management service website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory.",
+        "live":"https://vitic-application.web.app/",
+        "Client-side":"https://github.com/joypaul3592/Manufacturer-website",
+        "details":["This is a Electronics inventory management website and user manage their inventory.", "The Site features firebase authentication. User can sign in Manage inventory.", "The admin can upload a product and also delete it", "The admin can make admin from the users", "MongoDB database and Node Express server integrated with Frontend UI and CRUD operation implemented."]
+    },
+    {
+        "name":"Inventory Website",
+        "img":"https://i.ibb.co/XxYsRbs/Cycle.png",
+        "info":"This is a car warehouse management service website. The Site features firebase authentication. MongoDB database and Node Express server integrated with Front End UI and CRUD operation implemented.",
+        "live":"https://cycle-inventory.web.app/",
+        "Client-side":"https://github.com/joypaul3592/Cycle-management-app",
+        "details":["This is a car warehouse management service website.", "The Site features to user can buy products and add products.", "The Supplier can add a product and delete it", "The Supplier can update his products quantity.", "MongoDB database and Node Express server integrated." ]
+    
+    },
+    {
+        "name":"Doctor Website",
+        "img":"https://i.ibb.co/x5YhQqW/doc.png",
+        "live":"https://dapper-rolypoly-d479bb.netlify.app/",
+        "Client-side":"https://github.com/joypaul3592/Dcotor-managment-app",
+        "info":"This is a Doctor management website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory and book an appoinment to the doctor",
+        "details":["This is a Health & Doctor Care Services website,.", "The Site 6 items Services , Pulmonary, Cardiology, Cosmetic, Ear, Dental, Solutions, Eye .", "User can book an appoinment in doctor", "User can view his today appoinment", "Aslo user can cancle his booking"]
+    }
+]
+
