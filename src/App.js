@@ -9,6 +9,7 @@ import Overview from './Components/About/Overview';
 import Skills from './Components/About/Skills';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
+import ErrorPage from './Components/ErrorPage/ErrorPage';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
@@ -39,6 +40,7 @@ function App() {
         <Route path="projectsCard/:id" element={<ProjectsCard></ProjectsCard>} ></Route>
         <Route path="contact" element={<Contact />} />
         <Route path="blog" element={<Blog />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>
   );
