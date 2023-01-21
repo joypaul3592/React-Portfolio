@@ -1,9 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import viticpng from '../../assest/vitic.png'
-import cyclepng from '../../assest/Cycle.png'
-import docpng from '../../assest/doc.png'
-
-import ProjectsCard from './ProjectsCard';
 import { useNavigate } from 'react-router-dom';
 
 const Projects = () => {
@@ -12,17 +7,13 @@ const Projects = () => {
 
     const [projects, setProjects] = useState([]);
     useEffect(() => {
-        fetch('https://stormy-sea-28824.herokuapp.com/myProjects')
+        fetch('./Projects.json')
             .then(res => res.json())
             .then(data => {
-                console.log(data.data);
-                setProjects(data.data)
+                console.log(data);
+                setProjects(data)
             })
     }, [])
-
-
-
-
 
     return (
         <div>
@@ -36,16 +27,14 @@ const Projects = () => {
                     {
                         projects.map(project =>
                             <div data-aos="zoom-in-down" className=' rounded shadow-lg pb-6'>
-                                <div className=' box '>
+                                <div className=' box'>
                                     <img src={project.img} alt="image" />
                                 </div>
-                                <h1 className=' text-xl font-mono font-semibold text-left mt-2 ml-4'>{project.name}</h1>
-                                <hr className=' mb-4 mx-4' />
-                                <div className='px-4 mb-4'>
-                                    <p className=' text-sm text-justify'>{project.info}</p>
-                                </div>
-                                <div>
-                                    <button onClick={() => navigate(`/projectsCard/${project._id}`)} className=' w-[90%]  py-[2px] px-2 border border-orange-500 rounded text-xs font-semibold'>Details</button>
+                                <div className=' flex items-center justify-between mx-4 mt-5'>
+                                    <h1 className=' text-xl font-mono font-semibold text-left  '>{project.name}</h1>
+                                    <div>
+                                        <button onClick={() => navigate(`/projectsCard/${project._id}`)} className=' w-[90%]  py-1.5 px-10 border border-orange-500 rounded text-xs font-medium hover:bg-orange-500 hover:text-white transition-all duration-200 ease-in-out'>Details</button>
+                                    </div>
                                 </div>
                             </div>)
                     }

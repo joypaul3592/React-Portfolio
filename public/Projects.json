@@ -1,28 +1,92 @@
 [
-    {
-        "name":"Menufecture Website",
-        "img":"https://i.ibb.co/j4yMLt2/vitic.png",
-        "info":"This is a Electronics inventory management service website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory.",
-        "live":"https://vitic-application.web.app/",
-        "Client-side":"https://github.com/joypaul3592/Manufacturer-website",
-        "details":["This is a Electronics inventory management website and user manage their inventory.", "The Site features firebase authentication. User can sign in Manage inventory.", "The admin can upload a product and also delete it", "The admin can make admin from the users", "MongoDB database and Node Express server integrated with Frontend UI and CRUD operation implemented."]
-    },
-    {
-        "name":"Inventory Website",
-        "img":"https://i.ibb.co/XxYsRbs/Cycle.png",
-        "info":"This is a car warehouse management service website. The Site features firebase authentication. MongoDB database and Node Express server integrated with Front End UI and CRUD operation implemented.",
-        "live":"https://cycle-inventory.web.app/",
-        "Client-side":"https://github.com/joypaul3592/Cycle-management-app",
-        "details":["This is a car warehouse management service website.", "The Site features to user can buy products and add products.", "The Supplier can add a product and delete it", "The Supplier can update his products quantity.", "MongoDB database and Node Express server integrated." ]
-    
-    },
-    {
-        "name":"Doctor Website",
-        "img":"https://i.ibb.co/x5YhQqW/doc.png",
-        "live":"https://dapper-rolypoly-d479bb.netlify.app/",
-        "Client-side":"https://github.com/joypaul3592/Dcotor-managment-app",
-        "info":"This is a Doctor management website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory and book an appoinment to the doctor",
-        "details":["This is a Health & Doctor Care Services website,.", "The Site 6 items Services , Pulmonary, Cardiology, Cosmetic, Ear, Dental, Solutions, Eye .", "User can book an appoinment in doctor", "User can view his today appoinment", "Aslo user can cancle his booking"]
-    }
+  {
+    "_id": 1,
+    "name": "Langzila",
+    "img": "https://i.ibb.co/Q65GqFZ/download-24.png",
+    "live": "https://earnest-taffy-1cf6f0.netlify.app/",
+    "Client-side": "https://github.com/joypaul3592/langzila_client",
+    "info": "This is a Doctor management website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory and book an appoinment to the doctor",
+    "details": [
+      "This is a Language learning platfrom.",
+      "The site has many item with quixtest, voice learning and classroom section.",
+      "User can book an event for upcomming learning season.",
+      "User can learn by audio, video and support season.",
+      "User can take multiple activities as like canvas and typing text."
+    ]
+  },
+  {
+    "_id": 2,
+    "name": "Graphi",
+    "img": "https://i.ibb.co/q08RMFz/download-25.png",
+    "live": "https://graphi-154a5.web.app/",
+    "Client-side": "https://github.com/joypaul3592/Graphi",
+    "info": "This is a Doctor management website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory and book an appoinment to the doctor",
+    "details": [
+      "This is a dynamic Graph macking website.",
+      "The Site has many Graph as like lineChart, BarChart and circleChart.",
+      "User can make graph by Automatic and menually.",
+      "User can shear their graph with their friends.",
+      "User can change graph items on real time."
+    ]
+  },
+  {
+    "_id": 3,
+    "name": "TaskList",
+    "img": "https://i.ibb.co/34cn1wf/download-27.png",
+    "live": "https://vermillion-sherbet-aa604f.netlify.app/",
+    "Client-side": "https://github.com/joypaul3592/TaskList",
+    "info": "This is a Doctor management website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory and book an appoinment to the doctor",
+    "details": [
+      "This is a Time and task managment application",
+      "The Site 4 items as like attendance, tasklist, Timeboards, and workshift.",
+      "User can add their todo on tasksheet as like treelo.",
+      "They can attendance them on calander by dynamic date.",
+      "They can add working time on timeboard by working details."
+    ]
+  },
+  {
+    "_id": 4,
+    "name": "Medulla's",
+    "img": "https://i.ibb.co/KWKhLbM/download-26.png",
+    "live": "https://leafy-hamster-123e43.netlify.app/",
+    "Client-side": "https://github.com/joypaul3592/Medullas",
+    "info": "This is a Doctor management website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory and book an appoinment to the doctor",
+    "details": [
+      "This is a Educationl website for Nursing Cuaching",
+      "The Site many items as like dynamic from, course, support and clasroom.",
+      "User can addmit them by from and make them prepar.",
+      "User can see their result by this website.",
+      "Aslo user can see different blog from this website."
+    ]
+  },
+  {
+    "_id": 5,
+    "name": "Vitic",
+    "img": "https://i.ibb.co/j4yMLt2/vitic.png",
+    "info": "This is a Electronics inventory management service website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory.",
+    "live": "https://vitic-application.web.app/",
+    "Client-side": "https://github.com/joypaul3592/Manufacturer-website",
+    "details": [
+      "This is a Electronics inventory management website.",
+      "The Site features firebase authentication. User can sign in Manage inventory.",
+      "The admin can upload a product and also delete it.",
+      "The admin can make admin from the users.",
+      "MongoDB database and Node Express server and CRUD operation implemented."
+    ]
+  },
+  {
+    "_id": 6,
+    "name": "GetCycle",
+    "img": "https://i.ibb.co/XxYsRbs/Cycle.png",
+    "info": "This is a car warehouse management service website. The Site features firebase authentication. MongoDB database and Node Express server integrated with Front End UI and CRUD operation implemented.",
+    "live": "https://cycle-inventory.web.app/",
+    "Client-side": "https://github.com/joypaul3592/Cycle-management-app",
+    "details": [
+      "This is a car warehouse management service website.",
+      "The Site features to user can buy products and add products.",
+      "The Supplier can add a product and delete it",
+      "The Supplier can update his products quantity.",
+      "MongoDB database and Node Express server integrated."
+    ]
+  }
 ]
-

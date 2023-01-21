@@ -1,5 +1,5 @@
 import React from 'react';
-import { TbBoxMultiple1, TbBoxMultiple2, TbBoxMultiple3 } from "react-icons/tb";
+import { TbBoxMultiple1, TbBoxMultiple2 } from "react-icons/tb";
 import { HiAcademicCap } from "react-icons/hi";
 
 const Education = () => {
