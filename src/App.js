@@ -13,6 +13,8 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
 import ProjectsCard from './Components/Projects/ProjectsCard';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -38,6 +40,8 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+
+      <ToastContainer />
     </div>
   );
 }

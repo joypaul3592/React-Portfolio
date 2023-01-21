@@ -2,7 +2,26 @@ import React from 'react';
 import { FaHome } from "react-icons/fa";
 import { MdMarkEmailUnread, MdContactPhone } from "react-icons/md";
 import { IoIosSend } from "react-icons/io";
+import { toast } from 'react-toastify';
+import emailjs from '@emailjs/browser'
 const Contact = () => {
+
+
+    const sendEmail = (e) => {
+        e.preventDefault()
+        emailjs.sendForm('service_96j5mtj', 'template_3mwm2bj', e.target, 'ZBarvgnMPkgukqdo2').then(res => {
+            console.log(res)
+        }).catch(err => console.log(err));
+        toast.success("Your submission has been received.", {
+            position: toast.POSITION.TOP_RIGHT
+        });
+        e.target.reset();
+    }
+
+
+
+
+
     return (
         <div>
             <div className=' h-screen  md:pr-36 py-16 md:px-10 px-8 '>
@@ -49,13 +68,13 @@ const Contact = () => {
                         </div>
                     </div>
                     <div data-aos="zoom-in" className='md:w-[63%] md:px-8'>
-                        <form >
+                        <form onSubmit={sendEmail} >
                             <div className=' w-full  flex items-center justify-between mb-6'>
-                                <input className='w-[48%] py-2 px-2 text-sm font-mono bg-transparent border border-orange-500 rounded-md' type="text" placeholder='Your Name' required />
-                                <input className='w-[48%] py-2 px-2 text-sm font-mono bg-transparent border border-orange-500 rounded-md' type="email" placeholder='Your Email' required />
+                                <input className='w-[48%] py-2 px-2 text-sm font-mono bg-transparent border border-orange-500 rounded-md' type="text" name="from_name" placeholder='Your Name' required />
+                                <input className='w-[48%] py-2 px-2 text-sm font-mono bg-transparent border border-orange-500 rounded-md' type="email" name="from_email" placeholder='Your Email' required />
                             </div>
-                            <input className='w-full py-2 px-2 text-sm font-mono bg-transparent border border-orange-500 rounded-md mb-6' type="text" placeholder='Your Subject' required />
-                            <textarea className=' w-full text-sm font-mono bg-transparent border border-orange-500 rounded-md mb-6' name="message" id="message" placeholder=' Your Message' rows="10"></textarea>
+                            <input name='from_subject' className='w-full py-2 px-2 text-sm font-mono bg-transparent border border-orange-500 rounded-md mb-6' type="text" placeholder='Your Subject' required />
+                            <textarea name="message" className=' w-full text-sm font-mono bg-transparent border border-orange-500 rounded-md mb-6 p-2' id="message" placeholder=' Your Message' rows="10"></textarea>
 
                             <div className=' w-40 mx-auto rounded-md flex items-center relative border border-orange-500 hover:bg-orange-500 hover:text-white text-orange-500 '>
                                 <input className=' py-2 w-full' type="submit" value="Send" />
