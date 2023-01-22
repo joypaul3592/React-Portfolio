@@ -22,8 +22,6 @@ function App() {
     AOS.init();
   }, [])
 
-
-
   return (
     <div className="App max-w-7xl mx-auto relative">
       <Navbar></Navbar>
