@@ -2,7 +2,7 @@
   {
     "_id": 1,
     "name": "Langzila",
-    "img": "https://i.ibb.co/Q65GqFZ/download-24.png",
+    "img": "https://i.ibb.co/brfnygx/download-24.png",
     "live": "https://earnest-taffy-1cf6f0.netlify.app/",
     "Client-side": "https://github.com/joypaul3592/langzila_client",
     "info": "This is a Doctor management website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory and book an appoinment to the doctor",
@@ -17,7 +17,7 @@
   {
     "_id": 2,
     "name": "Graphi",
-    "img": "https://i.ibb.co/q08RMFz/download-25.png",
+    "img": "https://i.ibb.co/yhC8nBD/download-25.png",
     "live": "https://graphi-154a5.web.app/",
     "Client-side": "https://github.com/joypaul3592/Graphi",
     "info": "This is a Doctor management website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory and book an appoinment to the doctor",
@@ -32,7 +32,7 @@
   {
     "_id": 3,
     "name": "TaskList",
-    "img": "https://i.ibb.co/34cn1wf/download-27.png",
+    "img": "https://i.ibb.co/FmzF69s/download-27.png",
     "live": "https://vermillion-sherbet-aa604f.netlify.app/",
     "Client-side": "https://github.com/joypaul3592/TaskList",
     "info": "This is a Doctor management website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory and book an appoinment to the doctor",
@@ -47,7 +47,7 @@
   {
     "_id": 4,
     "name": "Medulla's",
-    "img": "https://i.ibb.co/KWKhLbM/download-26.png",
+    "img": "https://i.ibb.co/5LK4nGN/download-26.png",
     "live": "https://leafy-hamster-123e43.netlify.app/",
     "Client-side": "https://github.com/joypaul3592/Medullas",
     "info": "This is a Doctor management website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory and book an appoinment to the doctor",
@@ -62,7 +62,7 @@
   {
     "_id": 5,
     "name": "Vitic",
-    "img": "https://i.ibb.co/j4yMLt2/vitic.png",
+    "img": "https://i.ibb.co/wptRhPK/vitic.png",
     "info": "This is a Electronics inventory management service website and user manage their inventory. The Site features firebase authentication. User can sign in Manage inventory.",
     "live": "https://vitic-application.web.app/",
     "Client-side": "https://github.com/joypaul3592/Manufacturer-website",
@@ -77,7 +77,7 @@
   {
     "_id": 6,
     "name": "GetCycle",
-    "img": "https://i.ibb.co/XxYsRbs/Cycle.png",
+    "img": "https://i.ibb.co/5vpNrpw/Cycle.png",
     "info": "This is a car warehouse management service website. The Site features firebase authentication. MongoDB database and Node Express server integrated with Front End UI and CRUD operation implemented.",
     "live": "https://cycle-inventory.web.app/",
     "Client-side": "https://github.com/joypaul3592/Cycle-management-app",
